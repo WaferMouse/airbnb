@@ -1,1 +1,29 @@
+#searchbar {
+    font-family:Montserrat;
+    border-radius: 25px;
+/*    border-radius: 50%; */
+    border: 2px solid #000000;
+    padding: 10px;
+    display: grid;
+}
 
+#searchiconcont {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#searchicon {
+    position: relative;
+    top: 50%;
+}
+
+#searchtext {
+    font-weight: bold;
+    grid-column-start: 2;
+}
+
+#searchparams {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
