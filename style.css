@@ -27,3 +27,13 @@
     grid-row-start: 2;
     grid-column-start: 2;
 }
+
+#menu {
+    grid-template-columns: repeat(62, 1fr);
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.menuitem {
+    display: inline-block;
+}
