@@ -5,6 +5,8 @@
     border: 2px solid #000000;
     padding: 10px;
     display: grid;
+    position: sticky;
+    top: 0;
 }
 
 #searchiconcont {
@@ -58,4 +60,10 @@
 
 .booking {
     font-weight: bold;
+}
+
+.topbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
